@@ -1,0 +1,23 @@
+//git commands:
+
+
+//Repository lokal kopieren:
+git clone http://url
+
+//Versions History anzeigen:
+git log
+
+//Änderungen zwischen 2 Versionen:
+git diff 12341 12342
+
+//Bestimmte Version laden:
+git checkout 12342
+
+//Neues Repository erstellen:
+git init
+
+//Status des Repository anzeigen:
+git status
+
+//Datei zum Repository hinzufügen:
+git add dateiname
