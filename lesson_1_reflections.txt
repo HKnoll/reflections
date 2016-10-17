@@ -55,3 +55,6 @@ git remote
 
 //Remote Verbindung herstellen (hier für Repository 'reflections'):
 git remote add origin https://github.com/HKnoll/reflections.git
+
+//Branch (Master) auf Server übertragen:
+git push origin master
