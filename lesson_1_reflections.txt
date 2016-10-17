@@ -4,8 +4,9 @@
 //Repository lokal kopieren:
 git clone http://url
 
-//Versions History anzeigen:
+<//Versions History anzeigen:
 git log
+git log --graph
 
 //Änderungen zwischen 2 Versionen:
 git diff 12341 12342
@@ -19,5 +20,38 @@ git init
 //Status des Repository anzeigen:
 git status
 
-//Datei zum Repository hinzufügen:
+//Datei/Änderung in die Staging Area bringen:
 git add dateiname
+
+//Änderung Einchecken:
+git commit 
+
+//Abzweigungen anzeigen:
+git branch
+
+//Auf Branch wechseln:
+git checkout newBranch
+
+//Abzweigung anlegen:
+git branch branchName
+
+//Zweige zusammen führen (Hauptzweig und Branch):
+git merge master branchName
+
+//Unerreichbare commits entfernen (garbage collection):
+git gc 
+
+//Änderung eines Commits zum Parents:
+git show 231b2..
+
+//Entfernen eines Branches (Löschen des Labels);
+git branch -d branchName
+
+//Merge abbrechen:
+git merge --abort
+
+//Bestehende Remote Verbindungen anzeigen:
+git remote 
+
+//Remote Verbindung herstellen (hier für Repository 'reflections'):
+git remote add origin https://github.com/HKnoll/reflections.git
