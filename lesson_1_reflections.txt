@@ -38,11 +38,14 @@ git branch branchName
 //Zweige zusammen führen (Hauptzweig und Branch):
 git merge master branchName
 
+//Hauptzweig mit orginalem Hauptzweig zusammen führen
+git merge master origin/master
+
 //Unerreichbare commits entfernen (garbage collection):
 git gc 
 
 //Änderung eines Commits zum Parents:
-git show 231b2..
+git show 231b2..git 
 
 //Entfernen eines Branches (Löschen des Labels);
 git branch -d branchName
@@ -58,3 +61,8 @@ git remote add origin https://github.com/HKnoll/reflections.git
 
 //Branch (Master) auf Server übertragen:
 git push origin master
+
+//Branch (Master) auf lokalen Client übertragen:
+git pull origin master
+
+
